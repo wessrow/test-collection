@@ -1,0 +1,12 @@
+---
+# Install packet_coders.network_enforcer directly from GitHub.
+#
+# Usage:
+#   ansible-galaxy collection install -r requirements.yml
+#
+# Replace the 'version' ref with a tag (e.g. 1.0.0) or branch name as needed.
+
+collections:
+  - name: https://github.com/packet-coders/network_enforcer.git
+    type: git
+    version: main
